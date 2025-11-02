@@ -135,6 +135,20 @@ Vlan    Mac Address       Type        Ports
 ```
 ## Screenshots/ Diagrams
 ### Network Layout
-![](/assets/)
+![How the network is setup](/assets/images/network_design.png)
+
+### PC GUI setup
+![Setting the default gateway](/assets/images/pc_default_gateway_setup.png)
+
+![Setting the IP address and subnet mask](/assets/images/pc_ip_address_setup.png)
+
+### Router Configuration
+![Basic setup of the router and interfaces](/assets/images/router_configuration.png)
+
+### Show MAC address tables on switch 
+![Show MAC address table before and after a ping](/assets/images/switch_mac_address_table.png)
 
 ## Challenges and Lessons Learned
+- This setup was easy to implement but did bring up how to think about breaking up networks into subnets.
+- The basic configuration on a router interface is easy to do however I can see where making sure IP addresses are set correctly is important.
+- These skills will carry over into the next packet tracer assignment where I will start to use VLANs and VLAN routing. 
